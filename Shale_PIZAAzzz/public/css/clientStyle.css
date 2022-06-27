@@ -1,0 +1,149 @@
+
+.w3-bar {
+    width: 100%;
+}
+
+.w3-content {
+    max-width: 1536px;
+
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /*z-index: 1;*/
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #ddd;}*/
+
+/*!* Show the dropdown menu on hover *!*/
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+img {
+    display: block;
+    object-fit: cover; /* or object-fit: contain; */
+}
+body{
+    margin:0;
+    font-size: 23px;
+}
+.text-p4{
+    padding-left: 20px;
+    padding-right: 91px;
+}
+.justify-text{
+    justify-content: center !important;
+    text-align: center !important;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.btn{
+
+    color: red;
+
+}
+.col-sm-9{
+
+}
+dd img{
+    width: 15%;
+}
+
+.container{
+    height: 800px;
+}
+a{
+    text-decoration: none;
+}
+
+/*.flex-container {*/
+/*    display: flex;*/
+/*}*/
+
+
+/*.no-gutters {*/
+/*    margin-right: 0;*/
+/*    margin-left: 0;*/
+/*}*/
+/*.row {*/
+/*    display: -webkit-box;*/
+/*    display: -ms-flexbox;*/
+/*    display: flex;*/
+/*    -ms-flex-wrap: wrap;*/
+/*    flex-wrap: wrap;*/
+/*    margin-right: -15px;*/
+/*    margin-left: -15px;*/
+/*}*/
+/**, *::before, *::after {*/
+/*    -webkit-box-sizing: border-box;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*.no-gutters > .col, .no-gutters > [class*="col-"] {*/
+/*    padding-right: 0;*/
+/*    padding-left: 0;*/
+/*}*/
+/*.ftco-animate {*/
+/*    opacity: 0;*/
+/*    visibility: hidden;*/
+/*}*/
+/*.d-flex {*/
+/*    display: -webkit-box !important;*/
+/*    display: -ms-flexbox !important;*/
+/*    display: flex !important;*/
+/*}*/
+
+
+/*.ftco-animate {*/
+/*    opacity: 0;*/
+/*    visibility: hidden;*/
+/*}*/
+/*body {*/
+/*    font-family: "Poppins", Arial, sans-serif;*/
+/*    background: #121618;*/
+/*    font-size: 15px;*/
+/*    line-height: 1.8;*/
+/*    font-weight: 300;*/
+/*    color: gray;*/
+/*    background: url(../images/bg_4.jpg) no-repeat fixed;*/
+/*    background-size: cover;*/
+/*}*/
+/*.col-lg-4{*/
+
+/*}*/
